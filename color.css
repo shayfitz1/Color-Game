@@ -1,0 +1,80 @@
+body{
+    background: #232323;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "avenir", "monserrat";
+}
+
+.square{
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    border-radius: 20px;
+    transition: background-color .5s;
+    -webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    background-color: steelblue;
+}
+
+#stripe{
+    text-align: center;
+    background-color: white;
+    height: 30px;
+}
+
+.selectedDifficulty{
+    background-color: steelblue;
+    color: white;
+}
+
+.backgroundColor{
+    background: #232323;
+}
+
+#colorDisplay{
+    font-size: 200%;
+}
+
+button{
+    border: none;
+    background-color: white;
+    height: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: inherit;
+    color: steelblue;
+    margin-left: 0;
+    margin-right: 0;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    outline: none;
+}
+
+button:hover{
+    background-color: steelblue;
+    color: white;
+}
+
+#tryAgainOrCorrect{
+    display: inline-block;
+    width: 20%;
+}
